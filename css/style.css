@@ -17,7 +17,7 @@
 .body {
   color: var(--priomary-text-color);
   background-color: var(--white);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -82,7 +82,7 @@ a {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color:  #757575;
 }
 
 .header-tel-link {
