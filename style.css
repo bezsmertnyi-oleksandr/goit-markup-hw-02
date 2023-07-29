@@ -24,11 +24,12 @@ body {
 }
 
 .logo {
-        font-family: 'Raleway';
+        font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.17px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 
         color: var(--iris);
 }
@@ -59,6 +60,10 @@ button {
 }
 
 .contacts-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
     color: var(--slate);
 }
 
@@ -105,6 +110,7 @@ button {
         line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
     
         color: var(--navyblue);
 }
@@ -131,6 +137,10 @@ button {
     background: var(--cloud, #F4F4FD);
 }
 
+.team-item {
+    background-color: var(--white);
+}
+
 .footer {
     background: var(--navyblue, #2E2F42);
     color: var(--cloud)
@@ -138,4 +148,9 @@ button {
 
 .footer-logo {
     color: var(--cloud);
+}
+
+.footer-text {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
